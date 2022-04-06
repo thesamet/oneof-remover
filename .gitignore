@@ -1,0 +1,23 @@
+*.class
+*.log
+*.swp
+
+# sbt specific
+.bsp
+.cache
+.history
+.lib/
+.idea
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.bloop
+.metals
+metals.sbt

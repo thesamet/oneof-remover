@@ -1,0 +1,21 @@
+syntax = "proto2";
+
+package myexample;
+
+enum Color {
+  RED = 1;
+  GREEN = 2;
+  BLUE = 3;
+}
+
+message Other {
+}
+
+message Person {
+  optional string name = 1;
+  optional int32 age = 2;
+  oneof here {
+      int32 f1 = 3;
+      Other other = 4;
+  }
+}

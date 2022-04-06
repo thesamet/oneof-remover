@@ -1,0 +1,4 @@
+syntax = "proto2";
+
+// We need the proto files non-empty so sbt-protoc does not ignore this
+// project.
